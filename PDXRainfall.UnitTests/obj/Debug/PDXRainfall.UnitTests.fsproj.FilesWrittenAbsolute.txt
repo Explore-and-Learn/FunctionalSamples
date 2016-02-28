@@ -1,0 +1,8 @@
+/Users/marty/dev/FSharpSample/PDXRainfall.UnitTests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.fs
+/Users/marty/dev/FSharpSample/PDXRainfall.UnitTests/bin/Debug/FSharp.Data.dll
+/Users/marty/dev/FSharpSample/PDXRainfall.UnitTests/bin/Debug/PDXRainfall.WebClient.dll
+/Users/marty/dev/FSharpSample/PDXRainfall.UnitTests/bin/Debug/PDXRainfall.WebClient.dll.mdb
+/Users/marty/dev/FSharpSample/PDXRainfall.UnitTests/bin/Debug/PDXRainfall.UnitTests.dll.mdb
+/Users/marty/dev/FSharpSample/PDXRainfall.UnitTests/bin/Debug/PDXRainfall.UnitTests.dll
+/Users/marty/dev/FSharpSample/PDXRainfall.UnitTests/obj/Debug/PDXRainfall.UnitTests.dll
+/Users/marty/dev/FSharpSample/PDXRainfall.UnitTests/obj/Debug/PDXRainfall.UnitTests.dll.mdb
