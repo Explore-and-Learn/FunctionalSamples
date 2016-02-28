@@ -1,6 +1,0 @@
-/Users/marty/dev/FSharpSample/PDXRainfall.WebClient/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.fs
-/Users/marty/dev/FSharpSample/PDXRainfall.WebClient/bin/Debug/PDXRainfall.WebClient.dll.mdb
-/Users/marty/dev/FSharpSample/PDXRainfall.WebClient/bin/Debug/PDXRainfall.WebClient.dll
-/Users/marty/dev/FSharpSample/PDXRainfall.WebClient/obj/Debug/PDXRainfall.WebClient.dll
-/Users/marty/dev/FSharpSample/PDXRainfall.WebClient/obj/Debug/PDXRainfall.WebClient.dll.mdb
-/Users/marty/dev/FSharpSample/PDXRainfall.WebClient/bin/Debug/FSharp.Data.dll
