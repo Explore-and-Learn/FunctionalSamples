@@ -30,12 +30,14 @@
     let calliper =
         Compound(
             {Name="Calliper"; PartNumber = "R124C41"; Cost= None},
-            [calliperBody; Repeat(brakePiston, 2)] )
+            [calliperBody; Repeat(brakePiston, 2)] 
+        )
 
     let brake = 
         Compound(
             {Name = "Brake"; PartNumber="THX1138"; Cost=None},
-            [disc; calliper; Repeat(pin,2); Repeat(pad, 2); clip])
+            [disc; calliper; Repeat(pin,2); Repeat(pad, 2); clip]
+        )
 
      let Flatten (part: Part) = 
          let rec flatten p =

@@ -23,7 +23,7 @@
                     ])
              ])
 
-     //let rec IsAllergenic (foodStuff: FoodStuff) =
-       //  foodStuff.IsAllergenic
-         //|| foodStuff.FoodStuffs |> List.exists IsAllergenic
+     //let rec IsAllergenic (foodStuff: FoodStuff) : bool =
+       // foodStuff.IsAllergenic
+        //|| foodStuff.FoodStuffs |> List.exists IsAllergenic
                  
