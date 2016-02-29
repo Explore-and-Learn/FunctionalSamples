@@ -3,9 +3,9 @@ open System
 open NUnit.Framework
 
 [<TestFixture>]
-type Test() = 
+type TestTreeDiscriminatedUnions() = 
 
     [<Test>]
-    member x.TestCase() =
-        Assert.IsTrue(true)
+    member x.Test() =
+        TreeSampleDiscriminatedUnions.Print TreeSampleDiscriminatedUnions.brake
 

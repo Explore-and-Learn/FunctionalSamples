@@ -1,4 +1,6 @@
-﻿module TreeSampleDiscriminatedUnions
+﻿module TreeDiscriminatedUnions
+
+    open System
 
     type Tree =
         | Leaf of int
@@ -29,17 +31,16 @@
 
     let calliper =
         Compound(
-            {Name="Calliper"; PartNumber = "R124C41"; Cost= None},
+            { Name="Calliper"; PartNumber = "R124C41"; Cost= None },
             [calliperBody; Repeat(brakePiston, 2)] 
         )
 
     let brake = 
         Compound(
-            {Name = "Brake"; PartNumber="THX1138"; Cost=None},
-            [disc; calliper; Repeat(pin,2); Repeat(pad, 2); clip]
-        )
+            { Name = "Brake"; PartNumber = "THX1138"; Cost= None },
+            [disc; calliper; Repeat(pin, 2); Repeat(pad, 2); clip])
 
-     let Flatten (part: Part) = 
+    let Flatten (part: Part) = 
          let rec flatten p =
              seq {
                  match p with
@@ -55,7 +56,7 @@
              }
          flatten part
 
-     let TotalCost part =
+    let TotalCost part =
          part
          |> Flatten
          |> Seq.sumBy (fun d ->
@@ -63,7 +64,7 @@
              | Some c -> c
              | None -> 0.0m )
 
-     let Indent (part : Part) =
+    let Indent (part : Part) =
          let rec indent level count p=
              seq{
                  match p with
@@ -76,20 +77,16 @@
                          yield! indent (level+1) 1 child
              }
          indent 0 1 part
-     open System
 
-     let Print(part: Part) =
+    let Print(part: Part) =
          let printItem(indent: int, count : int, desc : Description) =
              let costStr = match desc.Cost with | Some c -> sprintf "%0.2f" c | None -> "N/A"
              printfn "%s %s %s %s x %i" (String(' ', indent*3)) desc.Name desc.PartNumber costStr count
-
          part
           |> Indent
           |> Seq.iter printItem
       
-     brake
-     |> Flatten
-     |> Seq.iter (fun desc -> printfn "%A" desc)
+   
      
 
       

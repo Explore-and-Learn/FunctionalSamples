@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="PDXRainfall/PDXRainfall.fsproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FSharpSample/TreeSample.fs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FSharpSample/TreeSampleDiscriminatedUnions.fs">
     <Files>
       <File FileName="FSharpSample/CryptoSample.fs" Line="1" Column="1" />
       <File FileName="FSharpSample/DictionaryMutableSample.fs" Line="1" Column="1" />
@@ -8,10 +8,11 @@
       <File FileName="FSharpSample/Tutorial.fs" Line="1" Column="1" />
       <File FileName="FSharpSample/WordCountSample.fs" Line="1" Column="1" />
       <File FileName="FSharpSample/SetsSample.fs" Line="1" Column="1" />
-      <File FileName="FSharpSample/TreeSample.fs" Line="26" Column="6" />
+      <File FileName="FSharpSample/TreeSample.fs" Line="1" Column="1" />
       <File FileName="FSharpSample/MartySample.fs" Line="1" Column="1" />
-      <File FileName="FSharpSample/TreeSampleDiscriminatedUnions.fs" Line="35" Column="7" />
+      <File FileName="FSharpSample/TreeSampleDiscriminatedUnions.fs" Line="37" Column="18" />
       <File FileName="FSharpSample/DiscriminatedUnionsSample.fs" Line="1" Column="1" />
+      <File FileName="PDXRainfall.WebClient/PDXRainGauge.fs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
