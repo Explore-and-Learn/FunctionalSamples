@@ -5,7 +5,6 @@ module AdventureWorks =
     
     open System
     open FSharp.Data
-    open System.Configuration
 
     type Product = {
         productName : string
