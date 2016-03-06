@@ -12,7 +12,7 @@ module RegexSample =
     //creates type using defined regex pattern
     type colorParser = FSharpx.Regex<colorPattern>
 
-    type colorRecord =
+    type color =
         {
             red: string
             blue: string

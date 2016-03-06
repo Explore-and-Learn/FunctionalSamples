@@ -14,6 +14,6 @@ type CSVSampleTests() =
   
     [<Test>]
     member x.TestCsvSort() =
-        let sortedRows : CSV.Sample.CSVSample.bookData[] = CSV.Sample.CSVSample.parseCsv
+        let sortedRows = CSV.Sample.CSVSample.sortCsv
         Assert.IsTrue(sortedRows.[0].author.Contains("Timothy"))
 
