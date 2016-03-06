@@ -7,6 +7,12 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventureWorks_FSharp", "Ad
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventureWorks_Tests", "AdventureWorks_Tests\AdventureWorks_Tests.fsproj", "{4F7E8A67-C08F-4861-B5F8-1ABA4A5F4457}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{0CEDB556-4EE9-4713-B1FD-7BC41F722B0D}"
+	ProjectSection(SolutionItems) = preProject
+		AdventureWorks2014.bak = AdventureWorks2014.bak
+		InstallAdventureWorksFromBackup.sql = InstallAdventureWorksFromBackup.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
