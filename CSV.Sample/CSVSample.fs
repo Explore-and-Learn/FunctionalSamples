@@ -8,6 +8,8 @@ module CSVSample =
         author: string
         reviewDate : DateTime
         isbn : int
+        //discountedprice: decimal
+
     }
 
     type sampleCsv = CsvProvider<"Sample.csv">
