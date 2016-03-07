@@ -1,38 +1,36 @@
 ﻿namespace Regex.Sample
 
-module RegexSample =
-    open FSharpx.TypeProviders.Regex
+module RegexSampleNoProvider =
+
+    open System.Text.RegularExpressions
 
     [<Literal>]
     //extracts RGB values from Hex String using named captures
-    let colorPattern =
+    let pattern =
         @"^#?(?<red>[\dA-F]{2})(?<green>[\dA-F]{2})(?<blue>[\dA-F]{2})$"
 
-    
-    //creates type using defined regex pattern
-    type colorParser = FSharpx.Regex<colorPattern>
-
-    type color =
+    type colorTest =
         {
             red: string
             blue: string
             green: string
         }
 
-    //instance of type
-
-    let getColorValues color =
-        let regex = colorParser()
+    let getColorTestValues color =
+        let regex = Regex(pattern)
         let getTestColor = 
             match regex.Match color with
             | m when m.Success -> 
                 {
-                    red = m.red.Value
-                    green = m.green.Value
-                    blue = m.blue.Value
+                    red = m.Groups.["red"].Value
+                    green = m.Groups.["green"].Value
+                    blue = m.Groups.["blue"].Value
                 }
             | _ -> color |> failwith "Color not recognized"
         getTestColor
     
      
+
+
+
 

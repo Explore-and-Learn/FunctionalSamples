@@ -1,22 +1,19 @@
 ﻿<Properties StartupItem="PDXRainfall/PDXRainfall.fsproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FSharpSample/FSharpSample.UnitTests/Test.fs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Regex.Sample/Regex.Sample.UnitTests/Test.fs">
     <Files>
-      <File FileName="FSharpSample/TreeSampleDiscriminatedUnions.fs" Line="52" Column="39" />
-      <File FileName="FSharpSample/FSharpSample.UnitTests/Test.fs" Line="15" Column="9" />
+      <File FileName="CSV.Sample/CSV.Sample.UnitTests/CSVSampleTests.fs" Line="7" Column="25" />
+      <File FileName="Regex.Sample/RegexSample.fs" Line="30" Column="28" />
+      <File FileName="CSV.Sample/Sample.csv" Line="1" Column="1" />
+      <File FileName="CSV.Sample/CSVSample.fs" Line="15" Column="16" />
+      <File FileName="Regex.Sample/Regex.Sample.UnitTests/Test.fs" Line="25" Column="31" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State name="__root__">
           <Node name="FSharpSample" expanded="True">
-            <Node name="Beginning" expanded="True">
-              <Node name="FSharpSample.UnitTests" expanded="True">
-                <Node name="FSharpSample" expanded="True">
-                  <Node name="UnitTests" expanded="True">
-                    <Node name="TestTreeDiscriminatedUnions" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
+            <Node name="CSV" expanded="True">
+              <Node name="CSV.Sample.UnitTests" expanded="True" />
             </Node>
           </Node>
         </State>
