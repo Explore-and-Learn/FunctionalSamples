@@ -5,13 +5,13 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventureWorks_FSharp", "AdventureWorks_FSharp\AdventureWorks_FSharp.fsproj", "{DF176648-49FE-4DAA-84A8-F6D27EC90459}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventureWorks_Tests", "AdventureWorks_Tests\AdventureWorks_Tests.fsproj", "{4F7E8A67-C08F-4861-B5F8-1ABA4A5F4457}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{0CEDB556-4EE9-4713-B1FD-7BC41F722B0D}"
 	ProjectSection(SolutionItems) = preProject
 		AdventureWorks2014.bak = AdventureWorks2014.bak
 		InstallAdventureWorksFromBackup.sql = InstallAdventureWorksFromBackup.sql
 	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OData.Sample", "OData.Sample\OData.Sample.fsproj", "{B4B824C8-572B-4B62-9CD9-BB2D83DB3988}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{DF176648-49FE-4DAA-84A8-F6D27EC90459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF176648-49FE-4DAA-84A8-F6D27EC90459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF176648-49FE-4DAA-84A8-F6D27EC90459}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F7E8A67-C08F-4861-B5F8-1ABA4A5F4457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F7E8A67-C08F-4861-B5F8-1ABA4A5F4457}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F7E8A67-C08F-4861-B5F8-1ABA4A5F4457}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F7E8A67-C08F-4861-B5F8-1ABA4A5F4457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B824C8-572B-4B62-9CD9-BB2D83DB3988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B824C8-572B-4B62-9CD9-BB2D83DB3988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B824C8-572B-4B62-9CD9-BB2D83DB3988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B824C8-572B-4B62-9CD9-BB2D83DB3988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
