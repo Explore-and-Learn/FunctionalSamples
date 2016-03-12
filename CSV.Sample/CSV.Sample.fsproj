@@ -49,5 +49,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Sample.csv" />
+    <None Include="SampleTest.csv" />
   </ItemGroup>
 </Project>

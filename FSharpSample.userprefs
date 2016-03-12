@@ -1,24 +1,12 @@
 ﻿<Properties StartupItem="PDXRainfall/PDXRainfall.fsproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Regex.Sample/Regex.Sample.UnitTests/Test.fs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSV.Sample/Sample.csv">
     <Files>
-      <File FileName="CSV.Sample/CSV.Sample.UnitTests/CSVSampleTests.fs" Line="7" Column="25" />
-      <File FileName="Regex.Sample/RegexSample.fs" Line="30" Column="28" />
-      <File FileName="CSV.Sample/Sample.csv" Line="1" Column="1" />
-      <File FileName="CSV.Sample/CSVSample.fs" Line="15" Column="16" />
-      <File FileName="Regex.Sample/Regex.Sample.UnitTests/Test.fs" Line="25" Column="31" />
+      <File FileName="CSV.Sample/CSVSample.fs" Line="26" Column="38" />
+      <File FileName="Regex.Sample/RegexSample.fs" Line="1" Column="1" />
+      <File FileName="Regex.Sample/RegexSampleNoProvider.fs" Line="18" Column="9" />
+      <File FileName="CSV.Sample/Sample.csv" Line="11" Column="39" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State name="__root__">
-          <Node name="FSharpSample" expanded="True">
-            <Node name="CSV" expanded="True">
-              <Node name="CSV.Sample.UnitTests" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

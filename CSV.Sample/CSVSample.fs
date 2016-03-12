@@ -8,11 +8,12 @@ module CSVSample =
         author: string
         reviewDate : DateTime
         isbn : int
-        //discountedprice: decimal
+        discountedPrice: decimal
 
     }
 
     type sampleCsv = CsvProvider<"Sample.csv">
+    //type sampleCsv = CsvProvider<"SampleTest.csv">
 
     let sortCsv =
         use sample = new sampleCsv()
@@ -24,6 +25,7 @@ module CSVSample =
                         author = s.AUTHOR
                         reviewDate = s.REVIEW_DATE
                         isbn = s.ISBN
+                        discountedPrice = s.DISCOUNTED_PRICE
                     }
             }
             |> Seq.toArray
