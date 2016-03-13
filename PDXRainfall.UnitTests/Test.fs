@@ -17,12 +17,12 @@ type Test() =
     [<Test>]
     member x.TestSortedStationNumberAscending() =
         let records = PDXRainGauge.getSortedStationNumberAscending(x.GetPrecipitationTestRecords)
-        Assert.IsTrue(records.First().StationNumber = 5)
+        Assert.IsTrue(records.First().``Station Number`` = 2)
 
     [<Test>]
     member x.TestSortedStationNumberDescending() =
         let records = PDXRainGauge.getSortedStationNumberDescending(x.GetPrecipitationTestRecords)
-        Assert.IsTrue(records.First().StationNumber = 999)
+        Assert.IsTrue(records.First().``Station Number`` = 999)
 
     [<Test>]
     member x.TestPrecipitationRecordsRetrieval() =
@@ -34,50 +34,50 @@ type Test() =
     member x.TestPrecipitationRecordsExistence() =
         let records = 
             PDXRainGauge.getPDXPrecipitationRecords PDXRainGauge.rainfallData
-        Assert.IsTrue(records.Any(fun(r) -> r.StationNumber = 1))
+        Assert.IsTrue(records.Any(fun(r) -> r.``Station Number`` = 1))
 
     member x.GetPrecipitationTestRecords : PDXRainGauge.PrecipitationData[] =
 
         seq<PDXRainGauge.PrecipitationData>[|
              {
-                StationName = "Test Station 999"
-                StationNumber = 999
-                _1DayAccumulation = 0.01
-                _3DayAccumulation = 0.05
-                _5DayAccumulation = 0.40
-                CurrentMonthAccumulation = 2.50
-                WaterYearAccumulation =  10.50
-                TimeOfReading = DateTime.UtcNow
+                ``Station Name`` = "Test Station 999"
+                ``Station Number`` = 999
+                ``1 Day Accumulation`` = 0.01
+                ``3 Day Accumulation`` = 0.05
+                ``5 Day Accumulation`` = 0.40
+                ``Current Month Accumulation`` = 2.50
+                ``Water Year Accumulation`` =  10.50
+                ``Time Of Reading (UTC)`` = DateTime.UtcNow
             };
              {
-                StationName = "Test Station 5"
-                StationNumber = 5
-                _1DayAccumulation = 0.11
-                _3DayAccumulation = 0.15
-                _5DayAccumulation = 0.40
-                CurrentMonthAccumulation = 4.50
-                WaterYearAccumulation =  19.50
-                TimeOfReading = DateTime.UtcNow
+                ``Station Name`` = "Test Station 501"
+                ``Station Number`` = 501
+                ``1 Day Accumulation`` = 0.15
+                ``3 Day Accumulation`` = 0.30
+                ``5 Day Accumulation`` = 1.40
+                ``Current Month Accumulation`` = 4.50
+                ``Water Year Accumulation`` =  21.50
+                ``Time Of Reading (UTC)`` = DateTime.UtcNow
             };
             {
-                StationName = "Test Station 500"
-                StationNumber = 500
-                _1DayAccumulation = 0.03
-                _3DayAccumulation = 0.80
-                _5DayAccumulation = 1.20
-                CurrentMonthAccumulation = 3.78
-                WaterYearAccumulation =  13.75
-                TimeOfReading = DateTime.UtcNow
+                ``Station Name`` = "Test Station 002"
+                ``Station Number`` = 002
+                ``1 Day Accumulation`` = 0.51
+                ``3 Day Accumulation`` = 1.00
+                ``5 Day Accumulation`` = 1.91
+                ``Current Month Accumulation`` = 6.47
+                ``Water Year Accumulation`` =  18.50
+                ``Time Of Reading (UTC)`` = DateTime.UtcNow
             };
             {
-                StationName = "Test Station 100"
-                StationNumber = 100
-                _1DayAccumulation = 0.40
-                _3DayAccumulation = 1.20
-                _5DayAccumulation = 2.00
-                CurrentMonthAccumulation = 5.00
-                WaterYearAccumulation =  20.50
-                TimeOfReading = DateTime.UtcNow
+                ``Station Name`` = "Test Station 465"
+                ``Station Number`` = 465
+                ``1 Day Accumulation`` = 0.34
+                ``3 Day Accumulation`` = 0.76
+                ``5 Day Accumulation`` = 1.75
+                ``Current Month Accumulation`` = 3.50
+                ``Water Year Accumulation`` =  13.75
+                ``Time Of Reading (UTC)`` = DateTime.UtcNow
             }
         |]
         |> Array.ofSeq
