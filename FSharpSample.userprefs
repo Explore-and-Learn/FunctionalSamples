@@ -6,28 +6,11 @@
       <File FileName="Regex.Sample/RegexSample.fs" Line="1" Column="1" />
       <File FileName="Regex.Sample/RegexSampleNoProvider.fs" Line="1" Column="1" />
       <File FileName="CSV.Sample/SampleTest.csv" Line="1" Column="1" />
-      <File FileName="CSV.Sample/Sample.csv" Line="1" Column="50" />
-      <File FileName="PDXRainfall/Program.fs" Line="4" Column="17" />
-      <File FileName="PDXRainfall.WebClient/PDXRainGauge.fs" Line="23" Column="5" />
-      <File FileName="PDXRainfall.UnitTests/Test.fs" Line="20" Column="61" />
+      <File FileName="CSV.Sample/Sample.csv" Line="1" Column="1" />
+      <File FileName="PDXRainfall/Program.fs" Line="6" Column="1" />
+      <File FileName="PDXRainfall.WebClient/PDXRainGauge.fs" Line="40" Column="54" />
+      <File FileName="PDXRainfall.UnitTests/Test.fs" Line="53" Column="54" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State name="__root__">
-          <Node name="FSharpSample" expanded="True">
-            <Node name="HTMLTypeProvider" expanded="True">
-              <Node name="PDXRainfall.UnitTests" expanded="True">
-                <Node name="PDXRainfall" expanded="True">
-                  <Node name="UnitTests" expanded="True">
-                    <Node name="Test" expanded="True" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
